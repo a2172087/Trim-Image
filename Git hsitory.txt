@@ -1,0 +1,4 @@
+V5.2
+1.修改def check_version(self)版本號提取邏輯，只取主版本號
+2.通過設定font.setBold(True) UI字體為'粗體'
+*pyinstaller --onefile --windowed --add-data "format.ico;." --icon=format.ico --noupx "Trim Image_V5.2.py"
